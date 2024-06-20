@@ -1,0 +1,5 @@
+Dark Green: #10443e
+Green: #32745c
+Cyan: #62a29a
+Brown: #b29361
+Cream: #ede4d6

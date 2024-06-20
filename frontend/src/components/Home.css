@@ -1,0 +1,94 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Define some variables for colors and fonts that you use often */
+:root {
+    --main-font: 'Outfit', sans-serif;
+    --main-bg-color: #b29361;
+    --main-text-color: #ede4d6;
+    --button-bg-color: #10443e;
+}
+
+/* Define some common styles for your pages */
+.page {
+    font-family: var(--main-font);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    overflow: hidden;
+    font-size: 1.3em;
+}
+
+/* Define some common styles for your buttons */
+.button {
+    font-family: var(--main-font);
+    border-radius: 10px;
+    height: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--button-bg-color);
+}
+
+/* Define styles for your carousel images */
+.carousel .slide img {
+    height: 75%;
+}
+
+/* Define styles for your second page */
+.page2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--main-font);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    overflow: hidden;
+    font-size: 1.3em;
+}
+
+/* Define styles for your steps */
+.step1, .step2 {
+    height: 75%;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: var(--main-font);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    overflow: hidden;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    background-color: #10443e;
+}
+
+.custom-file-upload {
+    padding: 10px;
+    cursor: pointer;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: var(--main-font);
+    text-align: center;
+    display: inline-block;
+  }
+
+  .text{
+    padding: 0px;
+    line-height: 1em;
+  }

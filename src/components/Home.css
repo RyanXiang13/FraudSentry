@@ -1,0 +1,76 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Define some variables for colors and fonts that you use often */
+:root {
+    --main-font: 'Outfit', sans-serif;
+    --main-bg-color: #b29361;
+    --main-text-color: #ede4d6;
+    --button-bg-color: #10443e;
+}
+body{
+    background-color: #ede4d6;
+}
+.home {
+    max-width: 75%;
+    margin: auto;
+    background-color: #ede4d6;
+    color: #10443e;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page {
+    font-family: var(--main-font);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    overflow: hidden;
+    font-size: 1.3em;
+    background-color: #ede4d6;
+    color: #10443e;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+
+}
+p{
+    font-size: 20px;
+
+}
+.button {
+    font-family: var(--main-font);
+    border-radius: 10px;
+    height: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--button-bg-color);
+    color: #ede4d6;
+}
+
+.fraud-data{
+    margin: 50px;
+}
+
+.input{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}

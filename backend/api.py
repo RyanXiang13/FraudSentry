@@ -1,3 +1,4 @@
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from pydantic import BaseModel
 from typing import List
@@ -21,6 +22,16 @@ app = FastAPI()
 data = pd.read_csv('./data/fraudTrain.csv')
 city_pop_data = pd.read_csv('./data/us_cities.csv')
 model = load_model('./model/fraud_detection_model.keras')
+
+# Configure CORS
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -90,11 +101,29 @@ def get_predictions():
     return predictions
 
 
-@app.get("/retrieve/", status_code=202)
+@app.get("/retrieve/jobs/", status_code=202)
 async def get_jobs():
     try:
-        job_list = set(data['job'])
+        job_list = list(data['job'].unique())
         return job_list
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.get("/retrieve/cities/", status_code=202)
+async def get_cities():
+    try:
+        city_list = list(city_pop_data['city'].unique())
+        return city_list
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.get("/retrieve/states/", status_code=202)
+async def get_jobs():
+    try:
+        state_list = list(city_pop_data['state_id'].unique())
+        return state_list
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 

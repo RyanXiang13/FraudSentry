@@ -13,7 +13,9 @@
 
 
 ### Behind the Scenes:
-
-
+#### The project allowed us to learn a couple of things in supervised machine learning, collaborative development, and full-stack development. 
+<ul>
+  <li>Model: </li>
+</ul>
 
 #### link to training dataset: https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain.csv

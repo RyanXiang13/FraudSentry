@@ -19,6 +19,8 @@
 <ul>
   <li>Model: We created a logistic regression machine learning model with a single hidden layer neural network using raw numpy, pandas, and tensorflow. We achived a 98.345% accuracy on our model which was trained on the following dataset: 
 https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain.csv. This model would output a binary categorical outcome.</li>
+  <li>Frontend: Created using react, we implemeented a simply frontend for the user to interact with and the results is diaplyed in a table at the bottom of the page following the completion of all fields.</li>
+  <li>Backend: </li>
 </ul>
 
 

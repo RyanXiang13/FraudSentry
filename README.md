@@ -2,7 +2,7 @@
 #### Protect yourself from fraud and scams with FraudSentry. Simply fill in the form and get results in seconds. 
 
 ### How it Works: 
-#### Please note: All data is not stored on our servers and simpley just fed into our AI model and removed from our systems/ 
+#### Please note: All data is not stored on our servers and simply just fed into our AI model and removed from our systems/ 
 <ol>
   <li>Enter Age</li>
   <li>Enter Gender</li>
@@ -12,7 +12,8 @@
 </ol>
 
 
-### Behind the Scene:
+### Behind the Scenes:
+
 
 
 #### link to training dataset: https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain.csv

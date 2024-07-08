@@ -14,6 +14,8 @@
 
 ### Behind the Scenes:
 #### The project allowed us to learn a couple of things in supervised machine learning, collaborative development, and full-stack development. 
+#### Tech Stack: 
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 <ul>
   <li>Model: We created a logistic regression machine learning model using raw numpy, pandas, and tensorflow.</li>
 </ul>

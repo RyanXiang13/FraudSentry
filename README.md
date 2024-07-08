@@ -1,4 +1,4 @@
-##  FraudSentry
+#  FraudSentry
 #### Protect yourself from fraud and scams with FraudSentry. Simply fill in the form and get results in seconds. 
 
 ### How it Works: 

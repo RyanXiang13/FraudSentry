@@ -12,8 +12,6 @@ FraudSentry is an advanced fraud detection system designed to analyze credit car
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -43,7 +41,7 @@ FraudSentry is an advanced fraud detection system designed to analyze credit car
    git clone https://github.com/yourusername/FraudSentry.git
    cd FraudSentry/backend
 
-1. **Set Up Python Virtual Environment**
+2. **Set Up Python Virtual Environment**
    ```bash
   
    python3 -m venv venv
@@ -54,7 +52,7 @@ FraudSentry is an advanced fraud detection system designed to analyze credit car
 
    pip install -r requirements.txt
 
-5. **Run Backend Server**
+4. **Run Backend Server**
    ```bash
 
    uvicorn api:app --reload
@@ -66,15 +64,28 @@ FraudSentry is an advanced fraud detection system designed to analyze credit car
 
    cd ../frontend
 
-3. **Install Frontend Dependencies**
+2. **Install Frontend Dependencies**
    ```bash
 
    npm install
 
-5. **Run Frontend Server**
+3. **Run Frontend Server**
    ```bash
 
    npm start
+
+## Usage
+
+1. Start the backend and frontend servers as described in the installation section.
+2. Navigate to the frontend URL, typically http://localhost:3000.
+3. Use the application to input credit card statement data.
+4. View the fraud detection results displayed after submission.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
   
    
